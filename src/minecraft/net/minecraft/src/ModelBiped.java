@@ -11,6 +11,10 @@ public class ModelBiped extends ModelBase
     public ModelRenderer bipedLeftLeg;
     public ModelRenderer bipedEars;
     public ModelRenderer bipedCloak;
+    boolean Humain = false;
+    boolean Nain = true;
+    boolean Elfe = false;
+
 
     /**
      * Records whether the model should be rendered holding an item in the left hand, and if that item is a block.
@@ -38,37 +42,109 @@ public class ModelBiped extends ModelBase
 
     public ModelBiped(float par1, float par2)
     {
-        heldItemLeft = 0;
-        heldItemRight = 0;
-        isSneak = false;
-        aimedBow = false;
-        bipedCloak = new ModelRenderer(this, 0, 0);
-        bipedCloak.addBox(-5F, 0.0F, -1F, 10, 16, 1, par1);
-        bipedEars = new ModelRenderer(this, 24, 0);
-        bipedEars.addBox(-3F, -6F, -1F, 6, 6, 1, par1);
-        bipedHead = new ModelRenderer(this, 0, 0);
-        bipedHead.addBox(-4F, -8F, -4F, 8, 8, 8, par1);
-        bipedHead.setRotationPoint(0.0F, 0.0F + par2, 0.0F);
-        bipedHeadwear = new ModelRenderer(this, 32, 0);
-        bipedHeadwear.addBox(-4F, -8F, -4F, 8, 8, 8, par1 + 0.5F);
-        bipedHeadwear.setRotationPoint(0.0F, 0.0F + par2, 0.0F);
-        bipedBody = new ModelRenderer(this, 16, 16);
-        bipedBody.addBox(-4F, 0.0F, -2F, 8, 12, 4, par1);
-        bipedBody.setRotationPoint(0.0F, 0.0F + par2, 0.0F);
-        bipedRightArm = new ModelRenderer(this, 40, 16);
-        bipedRightArm.addBox(-3F, -2F, -2F, 4, 12, 4, par1);
-        bipedRightArm.setRotationPoint(-5F, 2.0F + par2, 0.0F);
-        bipedLeftArm = new ModelRenderer(this, 40, 16);
-        bipedLeftArm.mirror = true;
-        bipedLeftArm.addBox(-1F, -2F, -2F, 4, 12, 4, par1);
-        bipedLeftArm.setRotationPoint(5F, 2.0F + par2, 0.0F);
-        bipedRightLeg = new ModelRenderer(this, 0, 16);
-        bipedRightLeg.addBox(-2F, 0.0F, -2F, 4, 12, 4, par1);
-        bipedRightLeg.setRotationPoint(-2F, 12F + par2, 0.0F);
-        bipedLeftLeg = new ModelRenderer(this, 0, 16);
-        bipedLeftLeg.mirror = true;
-        bipedLeftLeg.addBox(-2F, 0.0F, -2F, 4, 12, 4, par1);
-        bipedLeftLeg.setRotationPoint(2.0F, 12F + par2, 0.0F);
+    	if(Humain = true)
+    	{
+    		heldItemLeft = 0;
+            heldItemRight = 0;
+            isSneak = false;
+            aimedBow = false;
+            bipedCloak = new ModelRenderer(this, 0, 0);
+            bipedCloak.addBox(-5F, 0.0F, -1F, 10, 16, 1, par1);
+            bipedEars = new ModelRenderer(this, 24, 0);
+            bipedEars.addBox(-3F, -6F, -1F, 6, 6, 1, par1);
+            bipedHead = new ModelRenderer(this, 0, 0);
+            bipedHead.addBox(-4F, -8F, -4F, 8, 8, 8, par1);
+            bipedHead.setRotationPoint(0.0F, 0.0F + par2, 0.0F);
+            bipedHeadwear = new ModelRenderer(this, 32, 0);
+            bipedHeadwear.addBox(-4F, -8F, -4F, 8, 8, 8, par1 + 0.5F);
+            bipedHeadwear.setRotationPoint(0.0F, 0.0F + par2, 0.0F);
+            bipedBody = new ModelRenderer(this, 16, 16);
+            bipedBody.addBox(-4F, 0.0F, -2F, 8, 12, 4, par1);
+            bipedBody.setRotationPoint(0.0F, 0.0F + par2, 0.0F);
+            bipedRightArm = new ModelRenderer(this, 40, 16);
+            bipedRightArm.addBox(-3F, -2F, -2F, 4, 12, 4, par1);
+            bipedRightArm.setRotationPoint(-5F, 2.0F + par2, 0.0F);
+            bipedLeftArm = new ModelRenderer(this, 40, 16);
+            bipedLeftArm.mirror = true;
+            bipedLeftArm.addBox(-1F, -2F, -2F, 4, 12, 4, par1);
+            bipedLeftArm.setRotationPoint(5F, 2.0F + par2, 0.0F);
+            bipedRightLeg = new ModelRenderer(this, 0, 16);
+            bipedRightLeg.addBox(-2F, 0.0F, -2F, 4, 12, 4, par1);
+            bipedRightLeg.setRotationPoint(-2F, 12F + par2, 0.0F);
+            bipedLeftLeg = new ModelRenderer(this, 0, 16);
+            bipedLeftLeg.mirror = true;
+            bipedLeftLeg.addBox(-2F, 0.0F, -2F, 4, 12, 4, par1);
+            bipedLeftLeg.setRotationPoint(2.0F, 12F + par2, 0.0F);
+    	}
+    	if(Nain = true)
+    	{
+    		heldItemLeft = 0;
+            heldItemRight = 0;
+            isSneak = false;
+            aimedBow = false;
+            bipedCloak = new ModelRenderer(this, 0, 0);
+            bipedCloak.addBox(-5F, 0.0F, -1F, 10, 16, 1, par1);
+            bipedEars = new ModelRenderer(this, 24, 0);
+            bipedEars.addBox(-3F, -6F, -1F, 6, 6, 1, par1);
+            bipedHead = new ModelRenderer(this, 0, 0);
+            bipedHead.addBox(-4F, -8F, -4F, 9, 9, 9, par1);
+            bipedHead.setRotationPoint(0.0F, 0.0F + par2, 0.0F);
+            bipedHeadwear = new ModelRenderer(this, 32, 0);
+            bipedHeadwear.addBox(-4F, -8F, -4F, 8, 8, 8, par1 + 0.5F);
+            bipedHeadwear.setRotationPoint(0.0F, 0.0F + par2, 0.0F);
+            bipedBody = new ModelRenderer(this, 16, 16);
+            bipedBody.addBox(-4F, 0.0F, -2F, 8, 12, 4, par1);
+            bipedBody.setRotationPoint(0.0F, 0.0F + par2, 0.0F);
+            bipedRightArm = new ModelRenderer(this, 40, 16);
+            bipedRightArm.addBox(-3F, -2F, -2F, 4, 12, 4, par1);
+            bipedRightArm.setRotationPoint(-5F, 2.0F + par2, 0.0F);
+            bipedLeftArm = new ModelRenderer(this, 40, 16);
+            bipedLeftArm.mirror = true;
+            bipedLeftArm.addBox(-1F, -2F, -2F, 4, 12, 4, par1);
+            bipedLeftArm.setRotationPoint(5F, 2.0F + par2, 0.0F);
+            bipedRightLeg = new ModelRenderer(this, 0, 16);
+            bipedRightLeg.addBox(-2F, 0.0F, -2F, 4, 10, 4, par1);
+            bipedRightLeg.setRotationPoint(-2F, 12F + par2, 0.0F);
+            bipedLeftLeg = new ModelRenderer(this, 0, 16);
+            bipedLeftLeg.mirror = true;
+            bipedLeftLeg.addBox(-2F, 0.0F, -2F, 4, 10, 4, par1);
+            bipedLeftLeg.setRotationPoint(2.0F, 12F + par2, 0.0F);
+    	}
+    	if(Elfe = true)
+    	{
+    		heldItemLeft = 0;
+            heldItemRight = 0;
+            isSneak = false;
+            aimedBow = false;
+            bipedCloak = new ModelRenderer(this, 0, 0);
+            bipedCloak.addBox(-5F, 0.0F, -1F, 10, 16, 1, par1);
+            bipedEars = new ModelRenderer(this, 24, 0);
+            bipedEars.addBox(-3F, -6F, -1F, 6, 6, 1, par1);
+            bipedHead = new ModelRenderer(this, 0, 0);
+            bipedHead.addBox(-4F, -8F, -4F, 8, 8, 8, par1);
+            bipedHead.setRotationPoint(0.0F, 0.0F + par2, 0.0F);
+            bipedHeadwear = new ModelRenderer(this, 32, 0);
+            bipedHeadwear.addBox(-4F, -8F, -4F, 8, 8, 8, par1 + 0.5F);
+            bipedHeadwear.setRotationPoint(0.0F, 0.0F + par2, 0.0F);
+            bipedBody = new ModelRenderer(this, 16, 16);
+            bipedBody.addBox(-4F, 0.0F, -2F, 8, 12, 4, par1);
+            bipedBody.setRotationPoint(0.0F, 0.0F + par2, 0.0F);
+            bipedRightArm = new ModelRenderer(this, 40, 16);
+            bipedRightArm.addBox(-3F, -2F, -2F, 4, 12, 4, par1);
+            bipedRightArm.setRotationPoint(-5F, 2.0F + par2, 0.0F);
+            bipedLeftArm = new ModelRenderer(this, 40, 16);
+            bipedLeftArm.mirror = true;
+            bipedLeftArm.addBox(-1F, -2F, -2F, 4, 12, 4, par1);
+            bipedLeftArm.setRotationPoint(5F, 2.0F + par2, 0.0F);
+            bipedRightLeg = new ModelRenderer(this, 0, 16);
+            bipedRightLeg.addBox(-2F, 0.0F, -2F, 4, 13, 4, par1);
+            bipedRightLeg.setRotationPoint(-2F, 12F + par2, 0.0F);
+            bipedLeftLeg = new ModelRenderer(this, 0, 16);
+            bipedLeftLeg.mirror = true;
+            bipedLeftLeg.addBox(-2F, 0.0F, -2F, 4, 13, 4, par1);
+            bipedLeftLeg.setRotationPoint(2.0F, 12F + par2, 0.0F);
+    	}
+        
     }
 
     /**
