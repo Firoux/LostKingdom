@@ -1,8 +1,8 @@
 ----------Projet pour LostKingdom----------
 
-Premi�rement, nous travaillerons sur les classes qui sont:
+Premièrement, nous travaillerons sur les classes qui sont:
    -Guerrier 
-   -Pr�tre
+   -Prêtre
    -Mage
    -Voleur
    -Paladin
@@ -10,62 +10,62 @@ Premi�rement, nous travaillerons sur les classes qui sont:
    -Druide
    -Chaman (Futur)
    -Chevaliers de la mort (Futur)
-   -D�moniste (Futur)
+   -Démoniste (Futur)
 	
-Deuxi�mement, nous travaillerons sur les races qui sont:
+Deuxièmement, nous travaillerons sur les races qui sont:
    -Humains
    -Elfes
    -Nains
    -Kroms
    -Gnomes
    -Sages (MODIFIABLE)
-   -D�mon (Futur)
+   -Démon (Futur)
 
-R�sum� des classes disponible:
+Résumé des classes disponible:
    -Guerrier:
-       -R�sum�:
-        Depuis que la guerre fait rage, des h�ros de toutes races ont cherch� � ma�triser l�art du combat.
-        Les guerriers combinent force, autorit� et ma�trise des armes et des armures pour causer des ravages 
-        dans des combats �piques. Certains montent au front avec leur bouclier en protection pour bloquer les 
-        ennemis, permettant � leurs alli�s en soutien � l�arri�re de faire usage de leurs sorts et de leurs arcs.
-        D�autres renoncent au bouclier pour l�cher les coups enrag�s de leurs diverses armes meurtri�res sur leurs
+       -Résumé:
+        Depuis que la guerre fait rage, des héros de toutes races ont cherché à maîtriser l’art du combat.
+        Les guerriers combinent force, autorité et maîtrise des armes et des armures pour causer des ravages 
+        dans des combats épiques. Certains montent au front avec leur bouclier en protection pour bloquer les 
+        ennemis, permettant à leurs alliés en soutien à l’arrière de faire usage de leurs sorts et de leurs arcs.
+        D’autres renoncent au bouclier pour lâcher les coups enragés de leurs diverses armes meurtrières sur leurs
         adversaires les plus proches.
-        Leur cri de guerre enhardit leurs alli�s et s�me la peur chez leurs ennemis. Avec une pr�cision l�gendaire,
-        les guerriers savent viser les plus petits interstices d�une armure et briser un genou au milieu du tumulte d�acier.
-        Tous les dragons tu�s, les tyrans corrompus renvers�s et les d�mons bannis d�Ab�ron ont un jour trembl� devant ces seigneurs de guerre.
+        Leur cri de guerre enhardit leurs alliés et sème la peur chez leurs ennemis. Avec une précision légendaire,
+        les guerriers savent viser les plus petits interstices d’une armure et briser un genou au milieu du tumulte d’acier.
+        Tous les dragons tués, les tyrans corrompus renversés et les démons bannis d’Abéron ont un jour tremblé devant ces seigneurs de guerre.
 		
-       -G�n�ralit�s:
-        Les guerriers s��quipent avec pr�caution pour le combat, et n�h�sitent pas � engager le combat la t�te la premi�re tel un �clair v�tu d�une armure lourde.
-        Leurs tactiques de combat sont vari�es et ils peuvent brandir plusieurs types d�armes pour prot�ger leurs alli�s moins vers�s dans le combat. 
-        Toutefois, ils doivent g�rer cette rage et la puissance de leurs assauts les plus violents avec attention, afin de maximiser leur efficacit� au c�ur de la bataille.
+       -Généralités:
+        Les guerriers s’équipent avec précaution pour le combat, et n’hésitent pas à engager le combat la tête la première tel un éclair vêtu d’une armure lourde.
+        Leurs tactiques de combat sont variées et ils peuvent brandir plusieurs types d’armes pour protéger leurs alliés moins versés dans le combat. 
+        Toutefois, ils doivent gérer cette rage et la puissance de leurs assauts les plus violents avec attention, afin de maximiser leur efficacité au cœur de la bataille.
             Types:
-            -Tank , Sp�cialiste des d�g�ts physiques de m�l�e
+            -Tank , Spécialiste des dégâts physiques de mêlée
             Barres:
-            -Sant�, Rage
+            -Santé, Rage
             Armures accesibles:
             -Tissu, Cuir, Maille, Plaque, Boucliers
             Armes accesibles:
-            -Arcs, Arbal�tes, Dagues, Armes de pugilat, Armes � feu, Haches � une main, Masses � une main, 
-            -�p�es � une main, Armes d�hast, B�tons, Haches � deux mains, Masses � deux mains, �p�es � deux mains
+            -Arcs, Arbalètes, Dagues, Armes de pugilat, Armes à feu, Haches à une main, Masses à une main, 
+            -Épées à une main, Armes d’hast, Bâtons, Haches à deux mains, Masses à deux mains, Épées à deux mains
 			
-       -Caract�ristiques:
-            D�fense:
-            -Vaillant combattant en armure lourde et bouclier, cet expert du combat rapproch� sait parer les coups et 
-            -faire en sorte que l�ennemi s�en prenne � lui, afin d'�pargner ses compagnons plus fragiles.
-            D�gat au corps � corps:
-            -Le maniement des armes est la base de l�entra�nement martial. Le guerrier est ainsi capable d�an�antir 
-            -l�ennemi sous un d�luge d�acier, que ce soit � l�aide d�une monstrueuse arme � deux mains ou en maniant deux armes.
+       -Caractéristiques:
+            Défense:
+            -Vaillant combattant en armure lourde et bouclier, cet expert du combat rapproché sait parer les coups et 
+            -faire en sorte que l’ennemi s’en prenne à lui, afin d'épargner ses compagnons plus fragiles.
+            Dégat au corps à corps:
+            -Le maniement des armes est la base de l’entraînement martial. Le guerrier est ainsi capable d’anéantir 
+            -l’ennemi sous un déluge d’acier, que ce soit à l’aide d’une monstrueuse arme à deux mains ou en maniant deux armes.
             Rage:
-            -Infliger ou subir des d�g�ts augmente la rage du guerrier, qu�il sait canaliser pour porter des attaques d�vastatrices au plus fort de la m�l�e.
+            -Infliger ou subir des dégâts augmente la rage du guerrier, qu’il sait canaliser pour porter des attaques dévastatrices au plus fort de la mêlée.
             Postures:
-            -En changeant de posture au cours d�un combat, le guerrier change de tactique � la vol�e. 
-            -Il peut choisir d�infliger plus de d�g�ts, de se d�fendre pied � pied ou d�opter pour un juste milieu.
+            -En changeant de posture au cours d’un combat, le guerrier change de tactique à la volée. 
+            -Il peut choisir d’infliger plus de dégâts, de se défendre pied à pied ou d’opter pour un juste milieu.
 			
 	   -Talents:
-            Les talents du guerrier peuvent am�liorer leur capacit�s d�fensives d�j� impressionnantes au moyen d�un bouclier, 
-			l�efficacit� mortelle de leurs armes � deux mains ou d�cha�ner leur sauvagerie avec une arme dans chaque main.
+            Les talents du guerrier peuvent améliorer leur capacités défensives déjà impressionnantes au moyen d’un bouclier, 
+			l’efficacité mortelle de leurs armes à deux mains ou déchaîner leur sauvagerie avec une arme dans chaque main.
 			
 			Arbres de Talents:
-			-http://eu.battle.net/wow/fr/tool/talent-calculator#warrior (LOL)
+			-http://eu.battle.net/wow/fr/tool/talent-calculator#warrior
 			
 			
